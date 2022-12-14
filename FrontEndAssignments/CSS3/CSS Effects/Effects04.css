@@ -1,0 +1,15 @@
+/*4.Handling overflow using scroll.*/
+
+body{
+background-color:black;
+color:white;
+}
+.sc{
+width:800px;
+height:200px;
+margin-left:150px;
+overflow:auto;
+scroll-behavior:smooth;
+font-size:130%;
+font-weight:bold;
+}

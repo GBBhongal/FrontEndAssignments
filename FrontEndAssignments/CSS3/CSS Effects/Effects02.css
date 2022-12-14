@@ -1,0 +1,43 @@
+/*2.Use animations (name,duration,iteration-count,delay) and paginations(Hoverable,with and without spcaes).*/
+body{
+background-color:darkgreen;
+}
+.box{
+	background:black;
+	border-radius:15px;
+	width:200px;
+	height:200px;
+	animation-name:rotate;
+	animation-duration:10s;
+	animation-duration-count:2;
+	animation-delay:0s;
+}
+@keyframes rotate{
+			0%{
+				transform:rotate(0deg);
+			}
+			100%{
+				transform:rotate(360deg);
+			}
+	}
+.pgn{
+margin-left:600px;
+}
+.pgn a{
+font-size:130%;
+color:white;
+padding:10px 10px;
+text-decoration:none;
+	
+}
+.pgn{
+margin:2px 4px;
+}
+.pgn.active{
+background-color:#663399;
+color:green;
+}
+.pagination a:hover:not(.active)
+{
+background-color:#d8b4fc;
+}

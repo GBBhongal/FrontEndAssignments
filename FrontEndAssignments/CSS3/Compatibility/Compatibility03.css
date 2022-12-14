@@ -1,0 +1,35 @@
+*{
+font-family:cursive;
+color:maroon;
+font-weight:1000;
+}
+/*03.Create a grid with of different types...*/
+.cnt
+{
+	background-color:lightgrey;
+	display:grid;
+	grid-template-columns:30% 30% 30%;
+	padding:3%;
+	gap:20px;
+	grid-template-rows:100px 100px 100px;
+
+	
+}
+.i{
+background-color:grey;
+font-size:130%;
+text-align:center;
+padding-top:40px;
+}
+#innerCnt
+{
+display:grid;
+	grid-template-columns:20% 20% 20% 20%;
+	grid-template-rows:40% 40%;
+	padding:2%;
+	gap:20px 20px;
+}
+.inner{
+background-color:#eee;
+padding-top:5px;
+}

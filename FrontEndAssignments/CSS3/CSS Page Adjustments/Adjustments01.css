@@ -1,0 +1,19 @@
+/* A page which specify a black border for table and if hover on it,page should change it's color*/
+table
+{
+border:5px solid black;
+text-align:center;
+background-color:lightyellow;
+}
+table:hover
+{
+width:100%;
+background-color:lightgreen;
+font-weight:bold;
+color:red;
+font-size:140%;
+}
+body
+{
+background:purple;
+}

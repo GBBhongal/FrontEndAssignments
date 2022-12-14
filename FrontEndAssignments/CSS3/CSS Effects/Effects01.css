@@ -1,0 +1,23 @@
+body{
+background-color:grey;
+}
+.img{
+	width:300px;
+	height:300px;
+	background-image:url("https://getwallpapers.com/wallpaper/full/c/3/e/499750.jpg");
+	background-size:300px 300px;
+	background-repeat:no-repeat;
+}
+.img:hover{
+opacity:0.5;
+filter:alpha(opacity=30);
+box-shadow:100px 100px 100px 100px black;
+font-size:200%;
+color:white;
+font-family:cursive;
+text-align:center;
+	width:500px;
+	height:500px;
+background-size:500px 500px;
+	text-transform:Uppercase;
+}

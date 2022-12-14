@@ -1,0 +1,19 @@
+/*2.Create a list and change its list-style-type*/
+*{
+font-weight:bold;
+background-color:yellow;
+font-size:;
+font-family:cursive;
+}
+ul.first{
+list-style-type:circle;
+}
+ol.first{
+list-style-type:upper-alpha;
+}
+ul.second{
+list-style-type:square;
+}
+ol.second{
+list-style-type:upper-roman;
+}

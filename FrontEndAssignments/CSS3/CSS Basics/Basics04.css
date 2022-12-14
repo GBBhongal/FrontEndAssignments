@@ -1,0 +1,15 @@
+/*Develop a page and set height and width(in pixels and %) of elements...*/
+*
+{
+	background-color:lightgrey;
+	color:green;
+	font-size:130%;
+	font-weight:bold;
+}
+.b
+{
+width:90%;
+margin-left:5%;
+margin-right:5%;
+text-align:center;
+}

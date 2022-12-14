@@ -1,0 +1,24 @@
+<!--03.Write a program for FOR/IN loops-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <style></style>
+  </head>
+  <body>
+	<div id="p"></div>
+	<script>
+	var a={1:"Apple",2:"Banana",3:"Mango",4:"Pineapple",5:"Strawberry",6:"kiwi"};
+		let txt="";
+		for(let i in a)
+			{
+				txt+=a[i] + "--";
+			}
+		document.querySelector("#p").innerHTML=txt;
+	</script>
+	<script src="BASICS04.js"></script>
+  </body>
+</html>

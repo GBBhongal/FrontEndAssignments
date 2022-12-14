@@ -1,0 +1,28 @@
+<!--05.Add some more properties to an exisiting function using objct prototypes.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <style>
+    </style>
+  </head>
+  <body>
+	<div class="box"></div>
+  <script>
+    		function student(f,l,a)
+		{
+			this.first=f;
+			this.last=l;
+			this.age=a;
+			
+		}
+
+		student.prototype.std=8;
+		const det =new student("Bhuvan","Bam",14);
+		document.querySelector('.box').innerHTML="Student studies in class: "+ det.std;
+  </script>
+  </body>
+</html>

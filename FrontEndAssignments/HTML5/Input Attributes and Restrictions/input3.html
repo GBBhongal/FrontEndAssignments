@@ -1,0 +1,47 @@
+<!--Apply all of the below input restrictions
+disabled,maxlength,min,readonly,required,size value-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3</title>
+<style>
+	body{
+	background-color:darkgreen;
+	font-weight:bold;
+	font-size:120%;
+}
+</style>
+  </head>
+  <body>
+<form>
+	<label for ="firstname">FirstName:</label>
+	<input type="text" name="f" value="Hugh" disabled>
+<br>
+	<label for="lastName">LastName:</label>
+	<input type="text" value="Jackman">
+<hr>
+	<label for="dateMax">Input date before 01-01-2000:</label>
+	<input type="date" name="datemax" max="1999-12-31">
+<hr>
+	<label for="minDate">Enter date after 12-31-1999:</label>
+	<input type="date" name="dateMin" min="01-01-2000">
+<hr>
+	<label for="fname">Name:</label>
+	<input type="text" name="fname" size="20">
+<hr>
+	<label for="Pin">PIN:</label>
+	<input type="text" maxlength="6",size="6">
+<hr>
+	<label for="lname">LastName:</label>
+	<input type="text" name="lname" value="Jackman" readonly>
+<hr>	<label for="uname">UserName:</label>
+	<input type="text" name="username" required>
+<hr>
+<input type="submit">&nbsp&nbsp&nbsp&nbsp
+<input type="reset">
+</form>
+  </body>
+</html>

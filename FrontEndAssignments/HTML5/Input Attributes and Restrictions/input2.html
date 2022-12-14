@@ -1,0 +1,55 @@
+<!--HTML5 input types: number,range,color,date,time,month,week,email...-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2</title>
+<style>
+body{
+background-color:olivedrab;
+font-weight:bold;
+font-size:120%;
+font-family:cursive;
+padding:5px;
+}
+</style>
+  </head>
+  <body>
+<form>
+	<label for="R" >Range(1 to 100):</label>	
+	<input type="range" id="range" min="1" max="100">
+<hr>
+
+	<label for="Q" >Quantity(between 1 and 10):</label>	
+	<input type="number" id="num" min="1" max="10">
+<hr>
+	
+	<label for="f" >Color:</label>	
+	<input type="color" id="color" name="fc">
+<hr>
+	<label for="b" >Date of Birth:</label>	
+	<input type="date" id="d" name="bm">
+<hr>
+
+	<label for="M" >Month:</label>	
+	<input type="month" name="mon">
+<hr>
+	<label for="W" >week:</label>	
+	<input type="week" name="wk">
+<hr>
+	<label for="T" >Time:</label>	
+	<input type="time" name="t">
+<hr>
+	<label for="e" >Email:</label>	
+	<input type="email" name="em">
+<hr>
+	<label for="fi" >Select a file:</label>	
+	<input type="file" name="fi">
+<hr>
+<input type="submit">
+<input type="reset">
+</form>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+/*01.Create a table and apply table-layout as fixed and none*/
+table{
+border-collapse:collapse;
+text-align:center;
+}
+th,td
+{
+border:6px solid black;
+}
+table.one{
+table-layout:fixed;
+width:60%;
+}
+table.two{
+table-layout:none;
+width:90%;
+}

@@ -1,0 +1,30 @@
+<!-- 02.Invoke a function using call() and apply().Also spot the difference between them.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+  </head>
+  <body>
+<div id="div"></div>
+<script>
+const person={
+fullname:function(city,country)
+{
+return (this.first+" " + this.last + ", "+city + ", "+ country);
+},
+};
+const person1={
+first:"KL",
+last:"Rahul",
+};
+document.querySelector('#div').innerHTML=person.fullname.apply(person1,
+["Chennai","India"]
+);
+
+document.querySelector('#div').innerHTML=person.fullname.call(person1,"Chennai","India");
+</script>
+  </body>
+</html>

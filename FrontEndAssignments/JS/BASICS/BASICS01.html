@@ -1,0 +1,43 @@
+<!--01.Write a program which consists of single line and multiline comment..
+   02.Create an array consisting of fruits name and when we click on the button sort it in descending order..-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <style>
+	*{
+    	background-color:olive;
+	font-family:cursive;
+	}	
+
+	#para,.paragraph{
+		width:auto;
+		height:auto;
+		font-size:200%;
+		}
+
+    </style>
+  </head>
+  <body>
+	<center> <h1> 01.Write a program which consists of single line and multiline comment..</h1>
+	 <h1>02.Create an array consisting of fruits name and when we click on the button sort it in descending order</h1>
+	<div id="para"></div><br><br>
+	<h2>Sorting array in descending order:</h2>
+	<div class="paragraph"></div>
+	</center>
+	<script>
+		//Single line comment..
+		/* 01.Write a program which consists of single line and multiline comment..
+   02.Create an array consisting of fruits name and when we click on the button sort it in descending order..
+*/
+		var arr=["apple","mango","pineapple","papaya","guava","kiwi","grapes","watermelon","berry","strawberry"];
+		document.querySelector('#para').innerHTML=arr;
+		arr.sort();
+		arr.reverse();
+		document.querySelector('.paragraph').innerHTML=arr;
+	</script>
+  </body>
+</html>

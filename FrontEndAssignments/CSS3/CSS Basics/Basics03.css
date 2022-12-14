@@ -1,0 +1,15 @@
+/*Create a dfferent page with width,style and color of 4 border-style(set different borders on each side with different patterns)..*/
+*{
+background-color:lightgrey;
+}
+#d{
+margin-top:100px;
+width:400px;
+height:400px;
+background-color:green;
+border-left:10px solid black;
+border-right:14px dotted pink;
+border-top:16px dashed yellow;
+border-bottom:18px groove red;
+border-radius:30px;
+}
